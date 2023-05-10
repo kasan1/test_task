@@ -1,11 +1,14 @@
 # Freuders-test
 
--=RESTAURANT EXERCISE=--
+-=RESTAURANT EXERCISE=-
+
 Requirements:
 	Use the .NET Core 6 (7) API project
 	Create an API for all available RestManager actions
 	It is necessary to use modern approaches and patterns
 	The API should work correctly in a multi-threaded environment. Any concurrency issue has to be prevented.
+	
+
 Task:
 "
 Your restaurant has a set of tables of different sizes: each table can accommodate 2, 3, 4, 5 or 6 persons. Clients arrive alone or in groups, up to 6 persons. Clients within a given group must be seated together at one table, hence you can direct a group only to a table, which can accommodate them all. If there is no table with the required number of empty chairs, the group has to wait in the queue.
